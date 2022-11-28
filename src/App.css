@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.githup {
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  background-color: mediumspringgreen;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.fami {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  background-color: black;
+}
+.home {
+  color: fuchsia;
+  font-weight: 700;
+  font-size: 18px;
+}
+.checker {
+  color: lightseagreen;
+  font-weight: 700;
+  font-size: 18px;
+}
+.About {
+  color: hotpink;
+  font-weight: 700;
+  font-size: 18px;
+}
+.fami1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 95%;
+  margin-left: 35px;
+}
+.text {
+  padding: 5px 5px 5px 5px;
+  background-color: dimgray;
+  color: white;
+  border: none;
+}
+.Search {
+  margin-top: 10px;
+  padding: 5px 5px 5px 5px;
+  background-color: black;
+  color: white;
+}
+.Clear {
+  margin-top: 10px;
+  padding: 5px 5px 5px 5px;
+  background-color: darkslategray;
+  color: white;
+}
+.nav{
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  background-color: #D83448;
+  /* position: relative; */
+  display: flex;
+  line-height: 50px;
+  
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+
+}
+.textGit{
+  padding-left: 20px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.textHome{
+  position: absolute;
+  left: 90%;
+}
+
+.textAbout{
+  position: absolute;
+  left: 95%;
+}
+.card-deck{
+  width: 97%;
+  height: 100%;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.card-img-top{
+  width: 295px;
+  height: 300px;
+}
+
